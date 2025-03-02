@@ -2,251 +2,313 @@
   {
     "name": "Coursera",
     "url": "https://coursera.org",
-    "category": "all"
+    "category": "all",
+    "search_url": "https://www.coursera.org/search?query={query}"
   },
   {
     "name": "Khan Academy",
     "url": "https://khanacademy.org",
-    "category": "all"
+    "category": "all",
+    "search_url": "https://www.khanacademy.org/search?referer=%2F&page_search_query={query}"
   },
   {
     "name": "edX",
     "url": "https://edx.org",
-    "category": "all"
+    "category": "all",
+    "search_url": "https://www.edx.org/search?q={query}"
   },
   {
     "name": "TED",
     "url": "https://ted.com",
-    "category": "all"
+    "category": "all",
+    "search_url": "https://www.ted.com/search?q={query}"
   },
   {
     "name": "Grammarly",
     "url": "https://grammarly.com",
-    "category": "english"
+    "category": "english",
+    "search_url": "https://www.grammarly.com/search?q={query}"
   },
   {
     "name": "Openculture.com",
     "url": "https://openculture.com",
-    "category": "all"
+    "category": "all",
+    "search_url": "https://www.openculture.com/search?q={query}"
   },
   {
     "name": "Wolfram Alpha",
     "url": "https://wolframalpha.com",
-    "category": "math"
+    "category": "math",
+    "search_url": "https://www.wolframalpha.com/input/?i={query}"
   },
   {
     "name": "Codecademy",
     "url": "https://codecademy.com",
-    "category": "coding"
+    "category": "coding",
+    "search_url": "https://www.codecademy.com/search?query={query}"
   },
   {
     "name": "Duolingo",
     "url": "https://duolingo.com",
-    "category": "language"
+    "category": "language learning",
+    "search_url": "https://www.duolingo.com/search?q={query}"
   },
   {
     "name": "Google Scholar",
     "url": "https://scholar.google.com",
-    "category": "all"
+    "category": "research",
+    "search_url": "https://scholar.google.com/scholar?q={query}"
   },
   {
     "name": "Stanford Online",
     "url": "https://online.stanford.edu",
-    "category": "all"
+    "category": "all",
+    "search_url": "https://online.stanford.edu/search?query={query}"
   },
   {
     "name": "Udemy",
     "url": "https://udemy.com",
-    "category": "all"
+    "category": "all",
+    "search_url": "https://www.udemy.com/courses/search/?q={query}"
   },
   {
     "name": "Academic Earth",
     "url": "https://academicearth.org",
-    "category": "all"
+    "category": "all",
+    "search_url": "https://academicearth.org/search/?q={query}"
   },
   {
     "name": "Alison",
     "url": "https://alison.com",
-    "category": "all"
+    "category": "all",
+    "search_url": "https://alison.com/search?q={query}"
+  },
+  {
+    "name": "Evernote",
+    "url": "https://evernote.com",
+    "category": "tools",
+    "search_url": "https://www.evernote.com/search?q={query}"
   },
   {
     "name": "CosmoLearning",
     "url": "https://cosmolearning.org",
-    "category": "all"
+    "category": "all",
+    "search_url": "https://cosmolearning.org/search/?q={query}"
   },
   {
     "name": "HowStuffWorks",
     "url": "https://howstuffworks.com",
-    "category": "all"
+    "category": "all",
+    "search_url": "https://www.howstuffworks.com/search.php?terms={query}"
   },
   {
     "name": "MIT OpenCourseWare",
     "url": "https://ocw.mit.edu",
-    "category": "all"
+    "category": "all",
+    "search_url": "https://ocw.mit.edu/search/?q={query}"
   },
   {
     "name": "Open Yale Courses",
     "url": "https://oyc.yale.edu",
-    "category": "all"
+    "category": "all",
+    "search_url": "https://oyc.yale.edu/search?q={query}"
   },
   {
     "name": "Quizlet",
     "url": "https://quizlet.com",
-    "category": "all"
+    "category": "all",
+    "search_url": "https://quizlet.com/search?q={query}"
   },
   {
     "name": "StudyStack",
     "url": "https://studystack.com",
-    "category": "all"
+    "category": "all",
+    "search_url": "https://www.studystack.com/search?q={query}"
   },
   {
     "name": "Wikipedia",
     "url": "https://wikipedia.org",
-    "category": "all"
+    "category": "all",
+    "search_url": "https://en.wikipedia.org/wiki/Special:Search?search={query}"
   },
   {
     "name": "Big Think",
     "url": "https://bigthink.com",
-    "category": "all"
+    "category": "all",
+    "search_url": "https://bigthink.com/search?q={query}"
   },
   {
     "name": "MentalFloss.com",
     "url": "https://mentalfloss.com",
-    "category": "all"
+    "category": "all",
+    "search_url": "https://www.mentalfloss.com/search?search={query}"
   },
   {
     "name": "University of Reddit",
     "url": "https://ureddit.com",
-    "category": "all"
+    "category": "all",
+    "search_url": "https://ureddit.com/search?q={query}"
   },
   {
     "name": "ALISON",
     "url": "https://alison.com",
-    "category": "all"
+    "category": "all",
+    "search_url": "https://alison.com/search?q={query}"
   },
   {
     "name": "VideoLectures.net",
     "url": "https://videolectures.net",
-    "category": "all"
+    "category": "all",
+    "search_url": "https://videolectures.net/search/?q={query}"
   },
   {
     "name": "OEDb",
     "url": "https://oedb.org",
-    "category": "all"
+    "category": "all",
+    "search_url": "https://oedb.org/search/?q={query}"
   },
   {
     "name": "Creative Flow",
     "url": "https://creativeflow.com",
-    "category": "art"
+    "category": "design",
+    "search_url": "https://creativeflow.com/search?q={query}"
   },
   {
     "name": "Layers Magazine",
     "url": "https://layersmagazine.com",
-    "category": "art"
+    "category": "design",
+    "search_url": "https://layersmagazine.com/search?q={query}"
   },
   {
     "name": "Codeacademy",
     "url": "https://codecademy.com",
-    "category": "coding"
+    "category": "coding",
+    "search_url": "https://www.codecademy.com/search?query={query}"
   },
   {
     "name": "JustinGuitar",
     "url": "https://justinguitar.com",
-    "category": "music"
+    "category": "music",
+    "search_url": "https://www.justinguitar.com/search?q={query}"
   },
   {
     "name": "Drawspace",
     "url": "https://drawspace.com",
-    "category": "art"
+    "category": "art",
+    "search_url": "https://www.drawspace.com/search?q={query}"
   },
   {
     "name": "BBC Languages",
     "url": "https://bbc.co.uk/languages",
-    "category": "language"
+    "category": "language learning",
+    "search_url": "https://www.bbc.co.uk/search?q={query}"
+  },
+  {
+    "name": "Lifehacker",
+    "url": "https://lifehacker.com",
+    "category": "tools",
+    "search_url": "https://lifehacker.com/search?q={query}"
   },
   {
     "name": "Open Culture",
     "url": "https://openculture.com",
-    "category": "all"
+    "category": "all",
+    "search_url": "https://www.openculture.com/search?q={query}"
   },
   {
     "name": "No Excuse List",
     "url": "https://noexcuselist.com",
-    "category": "all"
+    "category": "all",
+    "search_url": "https://noexcuselist.com/search?q={query}"
   },
   {
     "name": "Zooniverse",
     "url": "https://zooniverse.org",
-    "category": "science"
+    "category": "science",
+    "search_url": "https://www.zooniverse.org/search?q={query}"
   },
   {
     "name": "Shodor",
     "url": "https://shodor.org",
-    "category": "math"
+    "category": "math",
+    "search_url": "https://www.shodor.org/search?q={query}"
   },
   {
     "name": "Maths & Science",
     "url": "https://mathsandscience.com",
-    "category": "math"
+    "category": "math",
+    "search_url": "https://www.mathsandscience.com/search?q={query}"
   },
   {
     "name": "UDACITY",
     "url": "https://udacity.com",
-    "category": "coding"
+    "category": "coding",
+    "search_url": "https://www.udacity.com/courses/search?q={query}"
   },
   {
     "name": "Free Computer Books",
     "url": "https://freecomputerbooks.com",
-    "category": "coding"
+    "category": "coding",
+    "search_url": "https://freecomputerbooks.com/search.html?cx=partner-pub-1234567890123456%3Aabcdefghijkl&cof=FORID%3A10&ie=UTF-8&q={query}"
   },
   {
     "name": "iTunes U",
     "url": "https://itunesu.itunes.apple.com",
-    "category": "all"
+    "category": "all",
+    "search_url": "https://itunesu.itunes.apple.com/search?q={query}"
   },
   {
     "name": "Liberty Classroom",
     "url": "https://libertyclassroom.com",
-    "category": "economics"
+    "category": "economics",
+    "search_url": "https://libertyclassroom.com/search?q={query}"
   },
   {
     "name": "My Own Business",
     "url": "https://myownbusiness.org",
-    "category": "business"
+    "category": "business",
+    "search_url": "https://myownbusiness.org/search?q={query}"
   },
   {
     "name": "unplugthetv",
     "url": "https://unplugthetv.com",
-    "category": "all"
+    "category": "all",
+    "search_url": "https://unplugthetv.com/search?q={query}"
   },
   {
     "name": "Classpert",
     "url": "https://classpert.com",
-    "category": "all"
+    "category": "all",
+    "search_url": "https://classpert.com/search?q={query}"
   },
   {
     "name": "MIT Open CourseWare",
     "url": "https://ocw.mit.edu",
-    "category": "all"
+    "category": "all",
+    "search_url": "https://ocw.mit.edu/search/?q={query}"
   },
   {
     "name": "Open Yale Courses",
     "url": "https://oyc.yale.edu",
-    "category": "all"
+    "category": "all",
+    "search_url": "https://oyc.yale.edu/search?q={query}"
   },
   {
     "name": "Scitable",
     "url": "https://scitable.com",
-    "category": "science"
+    "category": "science",
+    "search_url": "https://www.scitable.com/search/?q={query}"
   },
   {
     "name": "Kutztown University Courses",
     "url": "https://kutztown.edu",
-    "category": "business"
+    "category": "business",
+    "search_url": "https://www.kutztown.edu/search?q={query}"
   },
   {
     "name": "Codelabs",
     "url": "https://codelabs.developers.google.com",
-    "category": "coding"
+    "category": "coding",
+    "search_url": "https://codelabs.developers.google.com/search?q={query}"
   }
 ]
