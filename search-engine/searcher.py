@@ -10,25 +10,25 @@ def parse_json(json_file:str) -> list[dict[str,str]]:
     json_dict: list[dict[str, str]] = json.loads(json_content)
     return json_dict
 
-def search_sites_by_category(category: str) -> list[str]:
+def search_sites_by_category(category: str) -> list[dict[str,str]]:
     websites: list[dict[str,str]] = parse_json("websites.json")
-    matching_websites: list[str] = []
+    matching_websites: list[dict[str,str]] = []
 
     for website in websites:
         if website["category"] == "all" or website["category"] == category:
-            matching_websites.append(website["url"])
+            matching_websites.append(website)
 
     return matching_websites
 
-def search_query(website:str):
-    response: requests.Response = requests.get(website)
-    soup = BeautifulSoup(response.text, "html.parser")
-    inputs = soup.find_all("input")
-    print(inputs[0])
+def search_query(search_query: str, category: str):
+    sites: list[dict[str,str]] = search_sites_by_category(category)
+    
+    for site in sites:
+        print(site["search_url"])
 
 
 if __name__ == "__main__":
     # print(parse_json("websites.json"))
     # print(search_sites_by_category(category="all"))
-    search_query("https://coursera.org")
+    search_query(search_query="math", category="math")
 
