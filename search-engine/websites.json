@@ -111,7 +111,7 @@
     "name": "Open Yale Courses",
     "url": "https://oyc.yale.edu",
     "category": "all",
-    "search_url": "https://oyc.yale.edu/search?q={query}"
+    "search_url": "https://oyc.yale.edu/search/node/{query}"
   },
   {
     "name": "Quizlet",
@@ -142,12 +142,6 @@
     "url": "https://mentalfloss.com",
     "category": "all",
     "search_url": "https://www.mentalfloss.com/search?search={query}"
-  },
-  {
-    "name": "University of Reddit",
-    "url": "https://ureddit.com",
-    "category": "all",
-    "search_url": "https://ureddit.com/search?q={query}"
   },
   {
     "name": "ALISON",
@@ -291,7 +285,7 @@
     "name": "Open Yale Courses",
     "url": "https://oyc.yale.edu",
     "category": "all",
-    "search_url": "https://oyc.yale.edu/search?q={query}"
+    "search_url": "https://oyc.yale.edu/search/node/{query}"
   },
   {
     "name": "Scitable",
